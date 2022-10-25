@@ -7,13 +7,12 @@ const state = reactive({
         {title: "Backend", value: ["Java","Python","C#","Visual Basic"]},
         {title: "Database", value: ["Oracle","MySQL","DB2"]},
         {title: "Framework", value: ["Struts2","SpringBoot","Hibernate"]},
-        // {title: "Others", value: ["iReport","FineReport","Postman"]}
     ]
 })
 </script>
 
 <template>
-  <el-row :gutter="10" justify="space-evenly">
+  <el-row :gutter="10" justify="center">
       <el-card class="sk-box-card" v-for="item in state.names" >
           <template #header>
           <div class="sk-card-header" >
