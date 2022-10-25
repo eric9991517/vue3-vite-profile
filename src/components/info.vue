@@ -4,7 +4,7 @@ import { reactive, toRefs } from 'vue'
 
 const state = reactive({
     fits: ['fill', 'contain', 'cover', 'none', 'scale-down'],
-    circleUrl:'https://github.com/eric9991517/vue3-page/blob/main/src/assets/profile.JPG?raw=true',
+    circleUrl:'https://github.com/eric9991517/vue3-vite-profile/blob/main/src/assets/profile.JPG?raw=true',
 })
 
 const { circleUrl } = toRefs(state)
