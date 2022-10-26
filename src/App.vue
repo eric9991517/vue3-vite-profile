@@ -8,7 +8,7 @@ import bar from './components/menu.vue'
 
 <template>  
   <!-- 回到頂部功能 Back Top-->
-   <el-backtop :right="100" :bottom="100" />
+   <el-backtop :right="50" :bottom="50" />
     <div class="common-layout">
     <el-container>
       <el-header>
