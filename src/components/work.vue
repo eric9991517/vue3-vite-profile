@@ -1,5 +1,5 @@
 <template>
-    <el-timeline>
+    <el-timeline style="padding-left: unset;">
       <el-timeline-item center timestamp="Jan. 2021 ~ Present" placement="top"  type="primary">
         <el-card class="box-card">
           <el-row :gutter="20">
