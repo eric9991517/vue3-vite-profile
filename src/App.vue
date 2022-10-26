@@ -49,8 +49,8 @@ import bar from './components/menu.vue'
       </el-main>
       <el-footer>
         <div class="content has-text-centered">
-          <p>Code Could be Found <a href="https://github.com/eric9991517/yiyi-chen.github.io">here</a></p>
-          <p>Last Updated: 2022/08/30</p>
+          <p>Code Could be Found <a href="https://github.com/eric9991517/vue3-vite-profile">here</a></p>
+          <p>Last Updated: 2022/10/26</p>
       </div>   
       </el-footer>
     </el-container>
