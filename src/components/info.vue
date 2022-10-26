@@ -1,15 +1,3 @@
-<!-- <script lang="ts" setup>
-import { reactive, toRefs } from 'vue'
-
-
-const state = reactive({
-    fits: ['fill', 'contain', 'cover', 'none', 'scale-down'],
-    circleUrl:'https://github.com/eric9991517/vue3-vite-profile/blob/main/src/assets/profile.JPG?raw=true',
-})
-
-const { circleUrl } = toRefs(state)
-</script> -->
-
 <template>
     <el-row>
         <el-col :span="12" :xs="24" lg="12">

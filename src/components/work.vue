@@ -66,19 +66,9 @@
     </el-timeline>
   </template>
 
-  <script setup>
 
-
-  import {reactive } from "vue";
-
-</script>
 
 <style>
-/* .box-card {
-  width: 1024px;
-  border-radius: 25px;
- 
-}*/
 .el-timeline-item__timestamp {
     color: var(--el-text-color-secondary);
     /* line-height: 10; */

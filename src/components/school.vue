@@ -34,13 +34,4 @@
         </el-card>
       </el-timeline-item>
     </el-timeline>
-  
   </template>
-
-<style>
-/* .box-card {
-  max-width: 1024px;
-  border-radius: 25px;
-} */
-
-</style>

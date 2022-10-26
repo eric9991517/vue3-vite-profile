@@ -25,21 +25,6 @@ const state = reactive({
 </template>
 
 <style>
-/* .card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 20px;
-  font-weight:bold;
-  
-}
-
-.text {
-  font-size: 14px;
-  font-weight:normal;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
 .item {
   margin-bottom: 2px;
 } */

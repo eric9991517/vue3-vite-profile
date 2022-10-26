@@ -4,23 +4,16 @@ import skill from './components/skills.vue'
 import work from './components/work.vue'
 import ed from './components/school.vue'
 import bar from './components/menu.vue'
-// import {RouterLink, RouterView} from 'vue-router'
-
- 
-
 </script>
-<template>
-  
+
+<template>  
   <!-- 回到頂部功能 Back Top-->
    <el-backtop :right="100" :bottom="100" />
     <div class="common-layout">
     <el-container>
       <el-header>
-        <!-- <router-link to="/">Go to Home</router-link>
-        <router-link to="/ed">Go to About</router-link> -->
         <bar/>
         <RouterView></RouterView>
-
       </el-header>
       <el-main>
         <el-row justify="center">
