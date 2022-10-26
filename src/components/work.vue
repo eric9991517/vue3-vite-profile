@@ -66,10 +66,9 @@
 
 
 <style>
-.el-timeline-item__timestamp {
-    color: var(--el-text-color-secondary);
-    /* line-height: 10; */
-    font-size: 16px;
-    font-weight: bold;
-} 
+  .el-timeline-item__timestamp {
+      color: var(--el-text-color-secondary);
+      font-size: 16px;
+      font-weight: bold;
+  } 
 </style>

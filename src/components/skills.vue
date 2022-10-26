@@ -27,7 +27,7 @@ const state = reactive({
 <style>
 .item {
   margin-bottom: 2px;
-} */
+} 
 .el-card__header{
   background-color: darkseagreen;
   font-weight: bold;
