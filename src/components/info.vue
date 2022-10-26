@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<!-- <script lang="ts" setup>
 import { reactive, toRefs } from 'vue'
 
 
@@ -8,13 +8,13 @@ const state = reactive({
 })
 
 const { circleUrl } = toRefs(state)
-</script>
+</script> -->
 
 <template>
     <el-row>
         <el-col :span="12" :xs="24" lg="12">
             <div class="demo-basic--circle">       
-                <el-avatar :size="230" fits='fill' :src="circleUrl" />
+                <el-avatar :size="230" fits='fill' src="https://github.com/eric9991517/vue3-vite-profile/blob/main/src/assets/profile.JPG?raw=true" />
             </div>
         </el-col>
         <el-col :span="12" :xs="24" :lg="12">
