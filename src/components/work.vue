@@ -7,7 +7,6 @@
               <div class="grid-content ep-bg-purple" />
               <h2>緯創軟體 Wistron ITS</h2>
               <h4>Software Engineer</h4>
-              <p>Tom committed 2018/4/12 20:46</p>
             </el-col>
             <el-col :span="6" :xs="24">
               <div class="grid-content ep-bg-purple" />
@@ -21,9 +20,8 @@
           <el-row :gutter="20">
             <el-col :span="18">
               <div class="grid-content ep-bg-purple" />
-          <h2>成霖實業 GLOBE UNION</h2>
-          <h4>Software Engineer</h4>
-          <p>Tom committed 2018/4/3 20:46</p>
+                <h2>成霖實業 GLOBE UNION</h2>
+                <h4>Software Engineer</h4>
             </el-col>
             <el-col :span="6" :xs="24">
               <div class="grid-content ep-bg-purple" />
@@ -37,8 +35,8 @@
           <el-row :gutter="20">
             <el-col :span="18">
               <div class="grid-content ep-bg-purple" />
-          <h2>八旺實業 BarWand Corp.</h2>
-          <h4>Technical Support Engineer</h4><br>
+                <h2>八旺實業 BarWand Corp.</h2>
+                <h4>Technical Support Engineer</h4><br>
             </el-col>
             <el-col :span="6" :xs="24">
               <div class="grid-content ep-bg-purple" />
@@ -52,9 +50,8 @@
           <el-row :gutter="20">
             <el-col :span="20">
               <div class="grid-content ep-bg-purple" />
-         <h2>寶成集團 POU CHEN GROUP</h2>
-         <h4>Software Engineer</h4>
-          <p>Tom committed 2018/4/3 20:46</p>
+                <h2>寶成集團 POU CHEN GROUP</h2>
+                <h4>Software Engineer</h4>
             </el-col>
             <el-col :span="4" :xs="24">
               <div class="grid-content ep-bg-purple" />
