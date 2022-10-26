@@ -73,15 +73,16 @@
 
 </script>
 
-<style >
+<style>
 /* .box-card {
   width: 1024px;
   border-radius: 25px;
  
-}
+}*/
 .el-timeline-item__timestamp {
     color: var(--el-text-color-secondary);
-    line-height: 1;
-    font-size: 18px;
-} */
+    /* line-height: 10; */
+    font-size: 16px;
+    font-weight: bold;
+} 
 </style>

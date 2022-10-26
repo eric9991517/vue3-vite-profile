@@ -1,6 +1,6 @@
 <template>
 <el-timeline>
-      <el-timeline-item center timestamp="Jan. 2021 ~ Present" placement="top"  type="primary">
+      <el-timeline-item center timestamp="Sept. 2009 - June 2014" placement="top"  type="primary">
         <el-card class="box-card">
           <el-row :gutter="20">
             <el-col :span="18">
@@ -17,7 +17,7 @@
         </el-card>
       </el-timeline-item>
    
-      <el-timeline-item center timestamp="Jan. 2021 ~ Present" placement="top" >
+      <el-timeline-item center timestamp="June 2007 - Sept. 2009" placement="top" >
         <el-card class="box-card">
           <el-row :gutter="20">
             <el-col :span="20">

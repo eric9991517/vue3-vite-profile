@@ -44,7 +44,7 @@ const { circleUrl } = toRefs(state)
                   </span>
                 </h4>
             </div>
-            <span><i class="fa-solid fa-location-dot fa-xl" style="color:red"></i> <b>Taipei , TW</b></span>
+            <span class="info-text-content"><i class="fa-solid fa-location-dot fa-xl" style="color:red"></i> <b>Taipei , TW</b></span>
             <br>  
             <div class="info-text-content">
                 <p>擁有6年後端經驗，喜歡在工作過程中自學程式研究新穎技術<br>目前在 <b>緯創軟體</b> 擔任後端工程師，期許自己持續精進技術實<br>力並結合過往經驗，協助公司解決問題。</p>
@@ -55,22 +55,25 @@ const { circleUrl } = toRefs(state)
 </template>
 
 <style>
+.el-avatar--circle {
+    margin-left: 50px;
+}
 .el-avatar>img {
     display: block;
     height: 300px;
     width: 300px;
-    /* margin: -2px; */
-    /* top: -38px; */
-    /* right: -2px; */
-    /* left: 30px; */
+    /* margin-left: 50px; */
 }
 .info-text-header{
     font-weight:bold;
-    text-align:left
+    text-align:left;
+    margin-left:-20px;
+  
 }
 .info-text-content{
     /* width:360px; */
-    text-align:left
+    text-align:left;
+    margin-left: -20px;
 }
 .icon-span{
     padding: 3px;
