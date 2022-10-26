@@ -1,46 +1,58 @@
 <script setup>
-import info from './components/info.vue'
-import skill from './components/skills.vue'
-import work from './components/work.vue'
-import ed from './components/school.vue'
-import bar from './components/menu.vue'
+import info from "./components/info.vue";
+import skill from "./components/skills.vue";
+import work from "./components/work.vue";
+import ed from "./components/school.vue";
+import bar from "./components/menu.vue";
 </script>
 
-<template>  
+<template>
   <!-- 回到頂部功能 Back Top-->
-   <el-backtop :right="50" :bottom="50" />
-    <div class="common-layout">
+  <el-backtop :right="50" :bottom="50" />
+  <div class="common-layout">
     <el-container>
       <el-header>
-        <bar/>
+        <bar />
         <RouterView></RouterView>
       </el-header>
       <el-main>
         <el-row justify="center">
           <el-col :lg="24">
-            <info/>
+            <info />
           </el-col>
         </el-row>
         <!-- 工作經歷 -->
-        <el-divider id="exp" content-position="left"><h2><i class="fa-solid fa-briefcase fa-md"></i> Work Experience</h2></el-divider>
-        <el-row >
-          <el-col :lg="24" >
-            <work/>
+        <el-divider id="exp" content-position="left"
+          ><h2>
+            <i class="fa-solid fa-briefcase fa-md"></i> Work Experience
+          </h2></el-divider
+        >
+        <el-row>
+          <el-col :lg="24">
+            <work />
           </el-col>
         </el-row>
-        <el-divider id="ed" content-position="left"><h2><i class="fa-solid fa-user-graduate fa-md"></i> Education</h2></el-divider>
+        <el-divider id="ed" content-position="left"
+          ><h2>
+            <i class="fa-solid fa-user-graduate fa-md"></i> Education
+          </h2></el-divider
+        >
         <el-row>
-          <el-col :lg="24" >
+          <el-col :lg="24">
             <!-- <skill/> -->
-            <ed/>
+            <ed />
           </el-col>
         </el-row>
-         <!-- 技能技術 -->
-         <el-divider id="sk" content-position="left"><h2><i class="fa-solid fa-screwdriver-wrench fa-md"></i> Skills</h2></el-divider>
+        <!-- 技能技術 -->
+        <el-divider id="sk" content-position="left"
+          ><h2>
+            <i class="fa-solid fa-screwdriver-wrench fa-md"></i> Skills
+          </h2></el-divider
+        >
         <el-row>
-          <el-col :lg="24" >
+          <el-col :lg="24">
             <!-- <ed/> -->
-            <skill/>
+            <skill />
           </el-col>
           <!-- <el-col :lg="24" >
             <work/>
@@ -49,20 +61,23 @@ import bar from './components/menu.vue'
       </el-main>
       <el-footer>
         <div class="content has-text-centered">
-          <p>Code Could be Found <a href="https://github.com/eric9991517/vue3-vite-profile">here</a></p>
+          <p>
+            Code Could be Found
+            <a href="https://github.com/eric9991517/vue3-vite-profile">here</a>
+          </p>
           <p>Last Updated: 2022/10/26</p>
-      </div>   
+        </div>
       </el-footer>
     </el-container>
   </div>
 </template>
 
-<style >
+<style>
 .box-card {
   /* width: 1024px; */
   border-radius: 20px;
 }
-.content{
+.content {
   text-align: center;
   margin-top: 80px;
 }
