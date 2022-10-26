@@ -8,5 +8,5 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f https://github.com/eric9991517/vue3-vite-profile.git master:gh-pages
+git push -f https://github.com/eric9991517/vue3-vite-profile.git main:gh-pages
 cd -
