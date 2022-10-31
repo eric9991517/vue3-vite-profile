@@ -3,7 +3,8 @@ import info from "./components/info.vue";
 import skill from "./components/skills.vue";
 import work from "./components/work.vue";
 import ed from "./components/school.vue";
-import bar from "./components/menu.vue";
+// import bar from "./components/menu.vue";
+
 </script>
 
 <template>
@@ -12,9 +13,31 @@ import bar from "./components/menu.vue";
   <div class="common-layout">
     <el-container>
       <el-header>
-        <bar />
-        <RouterView></RouterView>
+        <!-- <bar /> -->
+        <scrollactive
+          ref="scrollactive"
+          :offset="offset"
+          :always-track="alwaysTrack"
+          :duration="duration"
+          :click-to-scroll="clickToScroll"
+          :bezier-easing-value="easing"
+        >
+          <ul class="nav-center">
+            <li>
+              <a href="#exp" class="scrollactive-item nav-item"
+                >Work Experience</a
+              >
+            </li>
+            <li>
+              <a href="#ed" class="scrollactive-item nav-item">Education</a>
+            </li>
+            <li><a href="#sk" class="scrollactive-item nav-item">Skills</a></li>
+          </ul>
+        </scrollactive>
+        <!-- <vue-navigation-bar :options="navbarOptions" /> -->
+        <!-- <RouterView></RouterView> -->
       </el-header>
+      <el-divider content-position="center"/>
       <el-main>
         <el-row justify="center">
           <el-col :lg="24">
@@ -44,20 +67,22 @@ import bar from "./components/menu.vue";
           </el-col>
         </el-row>
         <!-- 技能技術 -->
-        <el-divider id="sk" content-position="left"
-          ><h2>
-            <i class="fa-solid fa-screwdriver-wrench fa-md"></i> Skills
-          </h2></el-divider
-        >
-        <el-row>
-          <el-col :lg="24">
-            <!-- <ed/> -->
-            <skill />
-          </el-col>
-          <!-- <el-col :lg="24" >
+        <section id="sk">
+          <el-divider content-position="left"
+            ><h2>
+              <i class="fa-solid fa-screwdriver-wrench fa-md"></i> Skills
+            </h2></el-divider
+          >
+          <el-row>
+            <el-col :lg="24">
+              <!-- <ed/> -->
+              <skill />
+            </el-col>
+            <!-- <el-col :lg="24" >
             <work/>
           </el-col> -->
-        </el-row>
+          </el-row>
+        </section>
       </el-main>
       <el-footer>
         <div class="content has-text-centered">
@@ -80,5 +105,24 @@ import bar from "./components/menu.vue";
 .content {
   text-align: center;
   margin-top: 80px;
+}
+.nav-center {
+  /* width: 200px; */
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+.nav-center li {
+  margin-right: 20px;
+  padding-top: 20px;
+  /* margin: auto auto; */
+  float: left;
+}
+.nav-center li a {
+  /* padding: 20px 0; */
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
 }
 </style>
